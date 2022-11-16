@@ -7,9 +7,6 @@
 #include "util.h"
 
 
-void findWaitingTime();
-void findTurnAroundTime();
-
 // Function to find the waiting time for all  
 // processes
 void findWaitingTimeRR(ProcessType plist[], int n,int quantum) 
